@@ -24,3 +24,10 @@ curl localhost:80
 ```bash
 <h1> Hello from python </h1>
 ```
+
+
+### cat loging
+
+```bash
+docker container run -it --volumes-from=server-instance debian cat /log/http-server.log
+```
