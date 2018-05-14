@@ -1,6 +1,6 @@
 # Docker
 
-### hello world
+#### hello world
 
 ```bash
 docker containar run hello-world
@@ -14,7 +14,7 @@ docker containar run hello-world
 
 ## cheat-sheet
 
-### Listar containers em execução
+#### Listar containers em execução
 
 ```bash
 docker container ps
@@ -23,7 +23,7 @@ docker container list
 docker ps
 ```
 
-### Listar todos os containers
+#### Listar todos os containers
 
 ```bash
 docker container ps -a
@@ -32,18 +32,18 @@ docker container list -a
 docker ps -a
 ```
 
-### rodando containers dando nome
+#### rodando containers dando nome
 
 ```bash
 docker container run --name mydeb  -it debian bash
 ```
 
-### run container atach ao já criado pelo nome
+#### run container atach ao já criado pelo nome
 
 ```bash
 docker container start -ai mydeb
 ```
-### expondo a porta do serviço do container para ser acessada pelo host
+#### expondo a porta do serviço do container para ser acessada pelo host
 
 ```bash
 docker container run -p 8080:80 nginx
