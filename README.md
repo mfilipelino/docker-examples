@@ -1,10 +1,7 @@
 ## Anotações de docker 
 
 
-##### Primeiros passos
+#### Commando ```RUN```
 
-Exemplos com o commando run  ```RUN``` no dockerfile
-
-[echo](/hello-world/README.MD)
-``` RUN echo "Hello world" ```
+1 [hello](/hello-world/README.MD)
 
